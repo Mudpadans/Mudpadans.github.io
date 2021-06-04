@@ -35,6 +35,12 @@ styled here too.*/
    font-family: copperplate;
    font-size: 24px;
  }
+ h3 {
+   color: #FF725C;
+   text-align: center;
+   font-family: rockwell;
+   font-size: 20px;
+ }
  p {
    color: #010052;
    text-align: center;
