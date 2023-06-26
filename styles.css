@@ -7,13 +7,10 @@
     background: #F8F9FA;
   }
 
-  .img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 550px;
-    padding: -200px;
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h1 {
@@ -51,10 +48,14 @@
   }
 
   ul {
+    display: flex;
+    flex-direction: row;
     color: #212529;
     font-family: rockwell;
     text-align: center;
     list-style-position: inside;
+    justify-content: center;
+    align-items: center;
   }
 
   ol {
@@ -67,10 +68,16 @@
   li {
     display: flex;
     align-items: center;
+    margin: 10px 20px;
   }
 
   li span {
     margin-right: 10px;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
   }
 
   hr {
